@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #main {
+            /* background-color: rgb(237, 242, 242); */
+            height: 600px;
+            width: 500px;
+
+            position: absolute;
+            left: 500px;
+            top: 125px;
+            /* border-radius: 70%; */
+        }
+
+        #first {
+            background-color: darkblue;
+            width: 200px;
+            height: 200px;
+            z-index: -1;
+        }
+
+        #second {
+            background-color: firebrick;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 300px;
+            z-index: -1;
+        }
+
+        #third {
+            background-color: chartreuse;
+            height: 200px;
+            width: 200px;
+            /* float: right; */
+            position: absolute;
+            left: 300px;
+            top: 0px;
+            z-index: -1;
+        }
+
+        #fourth {
+            background-color: chocolate;
+            height: 200px;
+            width: 200px;
+            /* float: right; */
+            position: absolute;
+            top: 300px;
+            left: 300px;
+            z-index: -1;
+        }
+
+        #fifth {
+            background-color: rgb(204, 50, 50);
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 150px;
+            left: 150px;
+            z-index:-2;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+    <div id="main">
+
+
+
+        <div id="first"> </div>
+        <div id="second"> </div>
+        <div id="third"></div>
+        <div id="fourth"></div>
+        <div id="fifth"></div>
+
+
+
+    </div>
+
+</body>
+
+</html>
