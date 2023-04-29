@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu </title>
+
+
+    <style>
+        h1 {
+            background-color: maroon;
+            /* border-radius: 95px 0px 0px 0px; */
+            width: 840px;
+            
+            color: rgb(40, 170, 190);
+            text-align: center;
+            border-bottom: solid black 2px;
+            border-bottom-width: 1px;
+        }
+
+        #main {
+            border-radius: 90px 0px 90px 0px;
+            width: 840px;
+            height: 150px;
+            background-color: lightgreen;
+            margin: 0px auto;
+
+        }
+/* 
+        #topmenu {
+            background-color: darkturquoise;
+        } */
+
+        #lists {
+
+            font-weight: bold;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        li {
+            text-align: center;
+            height: 50px;
+            width: 120px;
+            border-radius: 30px 0px 30px 30px;
+
+            background-color: yellow;
+            float: left;
+            line-height: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+            /* border-left: solid yellow ; */
+
+        }
+
+        a {
+            /* border-radius: 30px; */
+
+            text-decoration: none;
+            display: block;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background-color: black;
+            color: yellow;
+            border-radius: 30px 0px 30px 30px;
+            /* text-transform:;
+             */
+             font-variant: small-caps;
+        }
+
+        #submenu ul li  {
+            margin:0px;
+            padding: 0px;
+            /* height: 0px; */
+            /* margin-top: 5px; */
+            display: block;
+            
+
+            
+
+        }
+        #submenu ul{
+            /* text-decoration: none */
+            list-style-type: none;
+            margin:0px;
+            padding: 0px;
+            /* line-height: 10px; */
+            display: block;
+            text-decoration: none;
+        
+
+        }
+       
+        
+        #submenu :hover ul{
+            display: none;
+         
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="main">
+        <h1>WELCOME TO OUR WEBPAGE</h1>
+
+        <div id="topmenu">
+
+            <ul id="lists">
+                <li><a href="">HOME</a></li>
+                <li id="submenu"><a href="">COURSE</a>
+                    <ul >
+                       <li><a href="">JAVA</a></li>
+                       <li><a href="">PHP</a></li>
+                       <li><a href="">CPP</a></li>
+                       
+                    </ul>
+                </li>
+
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">HELP</a></li>
+
+            </ul>
+        </div><!----topmenu div closed---->
+    </div><!---div main closed-->
+
+
+  
+
+</body>
+
+</html>

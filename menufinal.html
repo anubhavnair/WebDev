@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            background-color: antiquewhite;
+            font-weight: bold;
+            font-variant: small-caps;
+            text-align: center;
+        }
+
+        #MENU {
+            padding: 0px;
+            margin: 0px;
+            list-style-type: none;
+            background-color: mediumaquamarine;
+
+        }
+
+        #MENU li {
+            width: 150px;
+            height: 50px;
+
+            text-align: center;
+            float: left;
+            background-color: yellow;
+
+            line-height: 50px;
+            margin-left: 40px;
+            margin-right: 40px;
+
+        }
+
+        #MENU li a {
+
+            text-decoration: none;
+            font: 25px;
+            font-weight: bold;
+            background-color: yellow;
+            color: black;
+            display: block;
+        }
+
+        #MENU li a:hover {
+            background-color: black;
+            color: yellow;
+        }
+
+        #sublist ul {
+            padding: 0px;
+            margin: 0px;
+            list-style-type: none;
+            display: none;
+        }
+
+        #sublist ul li {
+            padding: 0px;
+            margin: 0px;
+            display: block;
+        }
+
+        #sublist:hover ul {
+            display: block;
+        }
+
+        #service {
+            position: absolute;
+            left: 50px;
+            top: 150px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="main">
+
+        <h1>Anubhav Nair</h1>
+        <div id="topmenu">
+            <ul ID="MENU">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li id="sublist"><a href="" id="service ">SERVICES</a>
+                    <ul>
+                        <li><a href="">java</a></li>
+                        <li><a href="">python</a></li>
+                        <li><a href="">javascript</a></li>
+                        <li><a href="">php</a></li>
+                    </ul>
+                </li>
+                <li><a href="">SUPPORT</a></li>
+                <li><a href="">HELP</a></li>
+            </ul>
+        </div>>
+
+    </div>
+</body>
+
+</html>

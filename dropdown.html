@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            background-color: blue;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #menu {
+            margin: 0px;
+            padding: 0px;
+
+            background-color: yellow;
+            list-style-type: none;
+        }
+
+        #menu li {
+            width: 280px;
+            height: 50px;
+            float: left;
+            background-color: yellow;
+            text-align: CENTER;
+            line-height: 50PX;
+            margin-left: 10px;
+            margin-right: 10px;
+            /* visibility: hidden; */
+
+        }
+
+        #menu li a {
+            text-decoration: none;
+            display: block;
+            font-weight: bold;
+
+        }
+
+        #menu li a:hover {
+            background-color: black;
+            color: yellow;
+        }
+
+        #submenu ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            display: none;
+            /* visibility: hidden; */
+          
+
+
+
+        }
+
+        #submenu ul li {
+            margin: 0px;
+            padding: 0px;
+            display: block;
+            border: 1px solid black;
+
+        }
+       
+
+        #submenu:hover ul {
+            display: block;
+
+        }
+
+        #javalist ul {
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;
+            position: relative;
+            top: -40px;
+            left: 280px;
+            display: none;
+
+
+        }
+
+        #javalist ul li {
+            background-color: aliceblue;
+            color: black;
+            display: none;
+            margin: 0px;
+            padding: 0px;
+            /* height: 100px; */
+        }
+
+        #javalist:hover ul li {
+            display: block;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>Menu BAr </h1>
+    <div>
+
+    <ul id="menu">
+
+
+        <li><a href="">HOME</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">contact</a></li>
+        <li id="submenu"><a href="">course</a>
+
+            <ul>
+
+                <li id="javalist"><a href="" class="crsmenu">JAVA</a>
+                 
+                        <ul>
+                            <li id="crjavalist"><a href="">core</a> </li>
+                            <li><a href="">advanced</a></li>
+                        </ul>
+             
+
+                </li>
+                <li id="python"><a href="" class="crsmenu">python</a></li>
+                <li id="php"><a href="" class="crsmenu">PHP</a></li>
+                <li id="cpp"><a href="" class="crsmenu">cpp</a></li>
+
+            </ul>
+
+
+
+        </li>
+        <li><a href="">support</a></li>
+
+
+    </ul>
+</div>
+
+
+
+</body>
+
+</html>

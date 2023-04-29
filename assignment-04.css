@@ -1,0 +1,269 @@
+body {
+    /* background-image: url('./images/bg1.png'); */
+    background-color: white;
+    margin: 20px;
+
+
+}
+
+
+
+#logo_and_menubar {
+    position: relative;
+}
+
+
+#logo {
+    width: 15em;
+    display: inline;
+    position: relative;
+
+}
+
+
+
+
+#menubar {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
+    border-radius: 1rem;
+    width: 61rem;
+    height: 3rem;
+
+}
+
+#menubar ul {
+    list-style-type: none;
+    /* background-color: rgb(98, 0, 255); */
+    border-radius: 2rem;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    right: -6px;
+    /* top: 1px; */
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#menubar ul li {
+    width: 10rem;
+    height: 3rem;
+    float: left;
+    background-color: rgb(00, 00, 00);
+    text-align: center;
+    line-height: 3.125rem;
+    border-radius: 32px;
+    /* border: 1rem; */
+    
+    
+}
+
+#menubar ul li a {
+    text-align: none;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: block;
+    border-radius: 32px;
+    
+    
+    
+}
+
+#menubar ul li a:hover {
+    background-color: yellow;
+    color: black;
+    text-shadow: 0px 0px 30px black;
+    position: relative;
+    top: 1px;
+}
+
+
+
+#bannerimage{
+    width: 100%;
+    border: 20px;
+    border: 10px solid gray;
+    position: relative;
+}
+
+#paragraph h1{
+    color: rgb(255, 225, 0);
+    font-size: 3.2rem;
+    border-bottom: 2px dotted black;
+    text-shadow: 0px 0px 7px black;
+    /* margin: 2px; */
+}
+#paragraph p{
+    margin: 0px;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+#paragraph{
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    height: 60%;
+
+}
+#paragraph h2{
+    font-size: 2rem;
+    /* background-color: rgb(5, 4, 4); */
+    /* background-image: url("./images/navbg.png"); */
+    background-color: #363636;
+    color: white;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#paragraph a{
+text-decoration: none;
+}
+
+#service{
+    width: 60%;
+    margin-top: 1%;
+    /* font-weight: bold; */
+}
+#serv{
+    font-size: 2rem;
+    display: block;
+    border-bottom: 2px dotted black;
+    font-weight: bold;
+}
+#service p{
+    text-align: justify;
+
+}
+#firstcontent{
+    margin-top: 2%;
+}
+ .images{
+    float: left;
+    width: 30%;
+    height: 15%;
+    clear: right;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 3px 4px 10px black;
+}
+.loremhead{
+    display: block;
+    font-weight: bold;
+    font-size: 1.5rem;
+   position: relative;
+   left: 20px;
+
+}
+
+
+.firstlorempara{
+    
+    position: relative;
+    left: 20px;
+}
+#secondlastcontent{
+    width: 60%;
+}
+
+#abt1{
+    font-size: 2rem;
+    
+    border-bottom: 2px dotted black;
+}
+
+#secondlastimage{
+    width: 30%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    /* position: relative; */
+    float:left;
+    box-shadow: 3px 4px 10px black;
+    clear: both;
+    
+
+}
+
+#about p{
+   text-align: justify;
+  position: relative;
+  left:20px;
+  /* clear: both; */
+
+
+
+}
+
+#lastcontent{
+    width: 60%;
+}
+
+#testimonial h2{
+    font-size: 2rem;
+    border-bottom: 2px dotted black;
+}
+#lastfootter{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+#lastfootter span a{
+    text-decoration: none;
+}
+#rightcontent{
+    width: 35%;
+    position:absolute;
+    top:644px;
+    right: 0px;
+    height: 90%;
+}
+#latestnews{
+    font-size: 2rem;
+    display: block;
+    border-bottom: 2px dotted black;
+    font-weight: bold;
+}
+.rightpara{
+    text-align:justify;
+    border-bottom: 2px dotted black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    height: 180px;
+}
+.loremheading{
+    font-size: 1.5rem;
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+}
+.date{
+    font-size: 1.5rem;
+    background-color: rgb(251, 174, 30);
+    position: relative;
+    top: 3px;
+    left: 20px;
+    border-radius: 5px;
+    font-family: "papyrus";
+}
+
+#rightlast:hover{
+
+    box-shadow: 0px 0px 50px  yellow;
+    position: relative;
+    top: 1px;
+    /* motion-rotation: 25px; */
+
+}

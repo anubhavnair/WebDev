@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation css</title>
+    <style>
+        .container
+        {background-color: aqua;
+
+
+        }
+        .box{
+            background-color: red;
+            width: 250px;
+            height: 25vh;
+            align-content: center;
+            animation-name: box;
+            animation-duration: 5s;
+            animation-iteration-count: 6;
+            animation-timing-function: ease-out;
+            position: relative;
+        }
+    
+        @keyframes box {
+            from{
+                width: 250px;
+                rotate:5px;
+            }
+            to
+            {
+                width: 100%;
+            }
+            
+        }
+        @keyframes box {
+            0%{
+                top: 0px;
+                left: 50px;
+                rotate:100%;
+            }
+
+            25%{
+                width: 300px;
+                background-color:chartreuse;
+            top: 50px;
+            left: 50px;
+            }
+            50%{
+                width: 250px;
+                background-color: black;
+                top: 50px;
+                left: 50px;
+            }
+            75%{
+                background-color: chocolate;
+                top: 50;
+                left: 00x;
+            }
+            100%{
+                background-color: firebrick;
+            top: 0px;
+            left: 0px;
+            }
+           
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class ="box">
+
+
+            this is box
+        </div>
+    </div>
+</body>
+</html>

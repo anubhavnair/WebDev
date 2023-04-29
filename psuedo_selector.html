@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Selector</title>
+        <style>
+
+            .main{
+                background-color: yellow;
+                box-shadow: -10px -20px 30px red;
+            }
+           li:nth-child(odd){
+                color: blue;
+
+            }
+            p::selection{
+                color: blue;
+                background-color: pink;
+            }
+            a:visited{
+                color: green;
+
+            }
+            a:active{
+                background-color: chartreuse;
+
+            }
+            a:link{
+                background-color: lavenderblush;
+            }
+            
+        </style>
+</head>
+<body>
+    
+    <div class="main">
+        <ul>
+            <li id="list1">first</li>
+            <li id="list2">second</li>
+            <li id="list3">third</li>
+            <li id="list4">forth</li>
+            <li id="list5">fifth</li>
+            <li id="list6">sixth</li>
+            <li id="list7">seventh</li>
+            <li id="list8">eight</li>
+            <li id="list9">nineth</li>
+            <li id="list10">tenth</li>
+        </ul>
+
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet quidem autem atque, sint dolorum facere labore animi doloribus veritatis maxime numquam nam voluptatem eum molestiae? Voluptatem veniam repudiandae, numquam, in itaque odio laboriosam nam recusandae culpa facilis ex aliquid. Odio repellat cupiditate pariatur ut tempore doloremque assumenda illum dicta cumque, sunt quibusdam sint beatae eos. Maxime numquam nihil inventore! Impedit, dolorum. Magni veniam sapiente fugiat cumque ut ipsa pariatur reprehenderit officia mollitia consectetur error excepturi nam ea tenetur hic cupiditate voluptate, aspernatur soluta quasi quae laboriosam, placeat et vitae. Quasi veniam laboriosam laudantium in, consectetur commodi voluptates et doloremque saepe!</p>
+
+        <a href="http://facebook.com">click here for facebook</a>
+    </div>
+</body>
+</html>
